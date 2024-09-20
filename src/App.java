@@ -33,7 +33,7 @@ public class App {
 
         int division = dataStructuresPrep.divideWAlgorithm(10, 2);
 
-        boolean potencia = dataStructuresPrep.isPerfectNumber(8);
+        boolean perfecto = dataStructuresPrep.isPerfectNumber(8);
 
         /*
          * Imprimir el resultado de la operación.
@@ -52,7 +52,7 @@ public class App {
         System.out.println("El resultado de subtractAlgorithm  es: " + resultado);
         System.out.println("El resultado de la multiplicacion es: " + multiplicacion);
         System.out.println("El resultado de la division es: " + division);
-        System.out.println("El resultado de la potencia es: " + potencia);
+        System.out.println("El resultado de numero perfecto es: " + perfecto);
 
     }
 }
