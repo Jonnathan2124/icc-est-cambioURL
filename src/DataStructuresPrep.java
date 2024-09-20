@@ -114,7 +114,14 @@ public class DataStructuresPrep {
      *         Ejemplo: getFactorial(5) retorna 120.
      */
     public int getFactorial(int number) {
-        throw new UnsupportedOperationException("Not yet implemented");
+
+        int factorial = 1;
+
+        for (int i =1; i <= number; i++) {
+            factorial *= i;
+        }
+        return factorial;
+       // throw new UnsupportedOperationException("Not yet implemented");
     }
 
     /**
@@ -125,7 +132,16 @@ public class DataStructuresPrep {
      *         Ejemplo: findMaximum(new int[]{1, 5, 3, 6, 8, 2}) retorna 8.
      */
     public int findMaximum(int[] numbers) {
-        throw new UnsupportedOperationException("Not yet implemented");
+
+        int max = numbers[0];
+
+        for (int i = 1; i < numbers.length; i++) {
+            if (numbers[i] > max) {
+                max = numbers[i];
+            }
+        }
+        return max;
+      //  throw new UnsupportedOperationException("Not yet implemented");
     }
 
     /**

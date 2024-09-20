@@ -33,7 +33,13 @@ public class App {
 
         int division = dataStructuresPrep.divideWAlgorithm(10, 2);
 
-        boolean perfecto = dataStructuresPrep.isPerfectNumber(8);
+        boolean perfecto = dataStructuresPrep.isPerfectNumber(28);
+
+        int factorial = dataStructuresPrep.getFactorial(division);
+
+       // int numberMayor = dataStructuresPrep.findMaximum(null);
+
+        
 
         /*
          * Imprimir el resultado de la operación.
@@ -53,6 +59,7 @@ public class App {
         System.out.println("El resultado de la multiplicacion es: " + multiplicacion);
         System.out.println("El resultado de la division es: " + division);
         System.out.println("El resultado de numero perfecto es: " + perfecto);
-
+        System.out.println("El rsultado del factorial es: " + factorial);
+       // System.out.println("El resultado del numero mayor es: " + numbe);
     }
 }
